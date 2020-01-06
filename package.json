@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-    "build:amd": "webpack-cli --config webpack.config.amd.js"
+    "build:amd": "webpack-cli --config webpack.config.amd.js",
+    "build:esm": "webpack-cli --config webpack.config.amd.js"
   },
   "author": "",
   "license": "ISC",
