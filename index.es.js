@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-export default {
+export const foo = {
   name: 'ni ma!',
   setStyle: (el) => {
     $(el).css({
